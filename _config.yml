@@ -1,0 +1,27 @@
+# Site settings
+title:          Trinkler
+description:    "Tools for a catallactic society"
+baseurl:        ""
+url:            "https://trinkler.github.io"
+
+# Author
+author:
+  name:         Trinkler
+  url:          https://trinkler.sh
+  email:        team@trinkler.sh
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
