@@ -11,8 +11,7 @@ The [Library of Alexandira](https://en.wikipedia.org/wiki/Library_of_Alexandria)
 
 The burning of the Library of Alexandria, including the incalculable loss of ancient works, has become a symbol of the irretrievable loss of public knowledge.
 
-
-The Trinkler Github repository [Alexandira](https://github.com/Trinkler/alexandria) is an attempt to rebuild a digital library for everything blockchain related.
+The Trinkler Github repository [Alexandira](https://github.com/Trinkler/alexandria) is an attempt to rebuild a digital version of this library for everything blockchain related.
 
 ### Contribute
 

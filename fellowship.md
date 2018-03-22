@@ -7,11 +7,11 @@ permalink: /fellowship/
 
 ## Purpose
 
-The _Trinkler Fellowship_ is a grant of CHF 50'000 to finacially free up autodidacts, free thinkers and dreamers for a duration of one year to let them build what they _have_ to build.
+The _Trinkler Fellowship_ is a grant of CHF 50'000 to financially free up autodidacts, free thinkers and dreamers for a duration of one year to let them build what they _have_ to build.
 
 ## Mission
 
-Many decision that we took as a society were based on the _assumption_ that future generations would improve on or fix existing problems. However the current educational system often produces a _clone-like_ mindset rather than _kind and empathic, creative contrarians capable of questioning the way we do things_.
+Many decision that we took as a society were based on the _assumption_ that future generations would improve on or fix existing problems. However the current educational system often produces a _clone-like_ mindset rather than _kind and emphatic, creative contrarians capable of questioning the way things are done_.
 
 Our mission is to financial free up those for a year that would rather create world-changing technology than sitting in a classroom or cubicle.
 
