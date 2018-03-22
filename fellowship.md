@@ -5,13 +5,26 @@ author: "R. Trinkler"
 permalink: /fellowship/
 ---
 
-![Fellowship](/assets/fellowship-header.png)
+## Purpose
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+The _Trinkler Fellowship_ is a grant of CHF 50'000 to finacially free up autodidacts, free thinkers and dreamers for a duration of one year to let them build what they _have_ to build.
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+## Mission
 
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
+Many decision that we took as a society were based on the _assumption_ that future generations would improve on or fix existing problems. However the current educational system often produces a _clone-like_ mindset rather than _kind and empathic, creative contrarians capable of questioning the way we do things_.
+
+Our mission is to financial free up those for a year that would rather create world-changing technology than sitting in a classroom or cubicle.
+
+## Vision
+
+In a time of information abundance, the memory-based educational system has become outdated. It's time that we _iterate_ to something more sensible.
+
+
+## Apply
+
+Trinkler Fellowship is focused on young (`<25years`) people from Europe. We have a special affinity for open-source coders and university dropouts ❤.
+
+To apply for a _Fellowship_ send us an email:
+<a href="mailto:apply@trinkler.sh?Subject=Application%20Trinkler%20Fellowship" target="_top">apply@trinkler.sh</a>. With information about yourself and what you would like to build.
 
 Thanks for reading!
