@@ -11,16 +11,15 @@ The _Trinkler Fellowship_ is a grant of CHF 50'000 to financially free up autodi
 
 ## Mission
 
-Many decision that we took as a society were based on the _assumption_ that future generations would improve on or fix existing problems. However the current educational system often produces a _clone-like_ mindset unfit to tackle above problems.
+Many decision that we took as a society were based on the _assumption_ that future generations would improve on or fix existing problems. However the current educational system often produces people with a _clone-like_ mindset unfit to tackle these problems.
 
-We need _kind, emphatic and courageous contrarians_ well-equipped to take on today's challenges.
+What we need are _kind, emphatic and courageous contrarians_ well-equipped to take on today's challenges.
 
 Our mission is to financial free up those for a year that would rather create world-changing technology than sit in a classroom or cubicle.
 
 ## Vision
 
 In a time of information abundance, the memory-based educational system has become outdated. It's time to _iterate_ to something more sensible.
-
 
 ## Apply
 
