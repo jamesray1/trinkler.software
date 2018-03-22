@@ -21,6 +21,12 @@ To build and serve your site, run:
 $ bundle exec jekyll serve
 ```
 
+to include the _draft_ posts run:
+
+```bash
+$ bundle exec jekyll serve --drafts
+```
+
 And you're all set! Head over to http://127.0.0.1:4000/ to see your site in action.
 
 ## Contributing
