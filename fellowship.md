@@ -19,7 +19,7 @@ Our mission is to financial free up those for a year that would rather create wo
 
 ## Vision
 
-In a time of information abundance, the memory-based educational system has become outdated. It's time that we _iterate_ to something more sensible.
+In a time of information abundance, the memory-based educational system has become outdated. It's time to _iterate_ to something more sensible.
 
 
 ## Apply
