@@ -26,8 +26,10 @@ In a time of information abundance, the memory-based educational system has beco
 Trinkler Fellowship is focused on young (`<26years`) people from Europe. We have a special affinity for open-source coders and university dropouts ❤.
 
 To apply for a _Fellowship_ send us an email:
-<a href="mailto:apply@trinkler.sh?Subject=Application%20Trinkler%20Fellowship" target="_top">apply@trinkler.sh</a>. With information about yourself and what you would like to build.
+<a href="mailto:fellowship@trinkler.sh?Subject=Application%20Trinkler%20Fellowship" target="_top">fellowship@trinkler.sh</a>.
+PGP Fingerprint: `FF10 F960 BE8B B78D 985B 898E 4202 21C4 B729 495F`
+With information about yourself and what you would like to build.
 
-Application deadline is December 31st 2018.
+Application deadline is December 31st {{ site.time | date: '%Y' }}.
 
 Thanks for reading!
