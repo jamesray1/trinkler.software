@@ -1,4 +1,4 @@
-# Tale
+# Trinkler
 
 [![Gem Version](https://badge.fury.io/rb/tale.svg)](https://badge.fury.io/rb/tale)
 
@@ -25,6 +25,12 @@ to include the _draft_ posts run:
 
 ```bash
 $ bundle exec jekyll serve --drafts
+```
+
+to build production version run:
+
+```bash
+$ JEKYLL_ENV=production jekyll build
 ```
 
 And you're all set! Head over to http://127.0.0.1:4000/ to see your site in action.
