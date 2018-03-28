@@ -21,6 +21,7 @@ sass:
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-toc
 
 # Permalinks
 permalink:      /:year-:month-:day/:title

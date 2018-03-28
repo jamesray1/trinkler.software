@@ -7,7 +7,7 @@ permalink: /fellowship/
 
 ## Purpose
 
-The _Trinkler Fellowship_ is a grant of CHF 50'000 to autodidacts, free thinkers and dreamers for a duration of one year let them build what they _have_ to build.
+The _Trinkler Fellowship_ is a grant of CHF 50'000 to autodidacts, free thinkers and dreamers for a duration of one year to let them build what they _have_ to build.
 We aim to have two Fellows for the class of {{ site.time | date: '%Y' | plus: 1 }}.
 
 ## Mission
