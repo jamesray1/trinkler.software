@@ -14,7 +14,7 @@ We aim to have two Fellows for the class of {{ site.time | date: '%Y' | plus: 1 
 
 Many decisions that we took as a society were based on the _assumption_ that future generations would improve on or fix existing problems. However the current educational system often produces people with a _clone-like_ mindset unfit to tackle these problems.
 
-What we need are _kind, emphatic and courageous_ humans well-equipped to take on today's challenges.
+What we need are _kind, emphatic and courageous_ people well-equipped to take on today's problems.
 
 Our mission is to financial free up those that would rather create world-changing technology than sit in a classroom or cubicle.
 
@@ -24,7 +24,7 @@ In a time of information abundance, the memory-based educational system has beco
 
 ## Apply
 
-Trinkler Fellowship is focused on young (`<26years`) people from Europe. We have a special affinity for open-source coders and university dropouts ❤.
+Trinkler Fellowship is focused on young (`<25years`) people from Europe. We have a special affinity for open-source coders and university dropouts ❤.
 
 To apply for a _Fellowship_ send us an email:
 <a href="mailto:fellowship@trinkler.sh?Subject=Application%20Trinkler%20Fellowship" target="_top">fellowship@trinkler.sh</a>.
