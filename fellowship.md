@@ -16,7 +16,7 @@ Many decisions that we took as a society were based on the _assumption_ that fut
 
 What we need are _kind, emphatic and courageous_ people well-equipped to take on today's problems.
 
-Our mission is to financial free up those that would rather create world-changing technology than sit in a classroom or cubicle.
+Our mission is to financially free up those that would rather create world-changing technology than sit in a classroom or cubicle.
 
 ## Vision
 
