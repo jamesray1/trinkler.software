@@ -12,7 +12,9 @@ We aim to have two Fellows for the class of {{ site.time | date: '%Y' | plus: 1 
 
 ## Mission
 
-Many decisions that we took as a society were based on the _assumption_ that future generations would improve on or fix existing problems. However the current educational system often produces people with a _clone-like_ mindset unfit to tackle these problems.
+Many decisions that we took as a society were based on the _assumption_ that future generations would improve on or fix existing problems.
+
+However the current traditional system often produces people with a _clone-like_ mindset unfit to tackle these problems.
 
 What we need are _kind, emphatic and courageous_ people well-equipped to take on today's problems.
 
@@ -20,11 +22,11 @@ Our mission is to financially free up those that would rather create world-chang
 
 ## Vision
 
-In a time of information abundance, the memory-based educational system has become outdated. It's time to _iterate_ to something more sensible.
+To provide an opportunity for socially conscious individuals to ensure that technology caters to the overall benefit of humanity as opposed to its regression or undoing.
 
 ## Apply
 
-Trinkler Fellowship is focused on young (`<25years`) people from Europe. We have a special affinity for open-source coders and university dropouts ❤.
+Trinkler Fellowship is focused on people from Europe. We have a special affinity for open-source coders and university dropouts ❤.
 
 To apply for a _Fellowship_ send us an email:
 <a href="mailto:fellowship@trinkler.sh?Subject=Application%20Trinkler%20Fellowship" target="_top">fellowship@trinkler.sh</a>.

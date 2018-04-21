@@ -15,6 +15,6 @@ The Trinkler Github repository [Alexandria](https://github.com/Trinkler/alexandr
 
 ### Contribute
 
-This can only be a collaberative effort. We ❤ issues and pull request on [GitHub](https://github.com/Trinkler/Alexandria).
+This can only be a collaberative effort.  We ❤ [issues](https://github.com/Trinkler/alexandria/issues/new) and [pull request](https://github.com/Trinkler/alexandria/fork)!
 
 Thanks for reading!
