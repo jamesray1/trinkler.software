@@ -12,9 +12,7 @@ We aim to have two Fellows for the class of {{ site.time | date: '%Y' | plus: 1 
 
 ## Mission
 
-Many decisions that we took as a society were based on the _assumption_ that future generations would improve on or fix existing problems.
-
-However the current traditional system often produces people with a _clone-like_ mindset unfit to tackle these problems.
+Many decisions that we took as a society were based on the _assumption_ that future generations would improve on or fix existing problems. However the current traditional system often produces people with a _clone-like_ mindset unfit to tackle these problems.
 
 What we need are _kind, emphatic and courageous_ people well-equipped to take on today's problems.
 
