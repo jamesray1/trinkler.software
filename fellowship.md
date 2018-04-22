@@ -12,11 +12,11 @@ We aim to have two Fellows for the class of {{ site.time | date: '%Y' | plus: 1 
 
 ## Mission
 
-Many decisions that we took as a society were based on the _assumption_ that future generations would improve on or fix existing problems. However traditional systems often produces people with a _clone-like_ mindset unfit to tackle these problems.
+Many decisions that we took as a society were based on the _assumption_ that future generations would improve on or fix existing problems.
 
-What we need are _kind, emphatic and courageous_ people well-equipped to take on today's problems.
+However traditional systems often produce people with a clone-like mindset unfit to tackle the challenges that are currently being posed. What we need are kind, empathetic and courageous people who are well-equipped to take them on.
 
-Our mission is to financially free up those that would rather create world-changing technology than sit in a classroom or cubicle.
+Our mission is to financially free up those who would rather create world-changing technology than sit in a classroom or cubicle.
 
 ## Vision
 
