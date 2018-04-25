@@ -19,7 +19,7 @@ Our mission is to financially free up those who would rather create world-changi
 
 ## Vision
 
-To help socially conscious individuals ensure that technology caters to the overall benefit of humanity as opposed to its regression.
+To ensure that technology caters to the overall benefit of humanity as opposed to its regression or undoing.
 
 ## Apply
 
