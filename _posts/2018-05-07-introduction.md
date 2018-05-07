@@ -37,9 +37,9 @@ While these types of blockchains solved the problem of isolation locally, meanin
 
 _As blockchains they were unable to talk and benefit from each other._
 
-However as demand for these kinds of blockchains grew we saw another problem arise: _scalablity_. In the first generation of blockchains a user was able to _opt out_ of downloading a record of ownership of one blockchain. For example a Bitcoin user was not forced to download and validate the Dogecoin blockchain. This was not the case with Ethereum-like blockchains. For example on Ethereum a Cryptokitties fan has to forcibly download and validate everything that happens in the asset management world with Melon and vice versa. We're talking about a shared general purpose computer after all - any (write-) usage of this computer, no matter for what purpose, has to be carried out by the entire network as well.
+However even as demand for these isolated blockchains grew we saw another problem arise: _scalablity_. In the first generation of blockchains a user was able to _opt out_ of downloading a record of ownership of one blockchain. For example a Bitcoin user was not forced to download and validate the Dogecoin blockchain. This was not the case with Ethereum-like blockchains. For example on Ethereum a Cryptokitties fan has to forcibly download and validate everything that happens in the asset management world with Melon and vice versa. We're talking about a shared general purpose computer after all - any (write-) usage of this computer, no matter for what purpose, has to be carried out by the entire network as well.
 
-Cries for scalability grew louder.
+_Cries for scalability grew louder._
 
 ## To what's next - Web3
 
@@ -58,6 +58,12 @@ While these are innovative and promising ideas - all of them are different _type
 Ethereum solved the problem of local interconnectivity for applications.
 Networks like _Polkadot_ will solve the problem of global interconnectivity. That is to say, it allows entire blockchains to exchange information in a way that does not require trust in any third party.
 
+What we see happening next is the _specialisation_ of blockchains. This essentially means _domain_ specific blockchains that fullfil only one purpose, where users can easily _opt-out_ of certain domainchains in which they are not interested in anymore and change to others - all in the context of interconnectivity.
+
+We will see that Blockchains which are specialised enough have a state, that is small enough that a user can download it in less than a minute in the context of simply opening up a webpage in browsers. We will take a closer look at this concept in a future post about _usability._
+
+### Scalability
+
 _Don't let people tell you otherwise, what we need to solve scalability is:_
 
 - **Domainchains**: Splitting up of blockchains into types of domain specific shards which are easy to use for non-technical people and have their own individual execution environment.
@@ -67,10 +73,6 @@ _To fullfil the potential blockchain technology has to offer we additionally nee
 - **Distributed hosting**: To access the blockchain client application and its frontend web application in a way that is trust free.
 
 Those three things will allow us for the first time in human history to build _Autonomous Applications_.
-
-### Usability
-
-To solve scalability we need to solve usability first. In the context of blockchain design; Usability can be seen as a superset of scalability. What we see happening next is the _specialisation_ of blockchains. This essentially means _domain_ specific blockchains that fullfil only one purpose, where users can easily _opt-out_ of certain domainchains in which they are not interested anymore and change to others - all in the context of interconnectivity. We will see that Blockchains which are specialised enough have a state, or data layer, that is small enough that a user can download it in less than a minute in the context of simply opening up a webpage in browsers. We will take a closer look at this concept in a future post about _usability._
 
 ## Blog posts to follow
 
