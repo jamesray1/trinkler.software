@@ -60,7 +60,7 @@ Networks like _Polkadot_ will solve the problem of global interconnectivity. Tha
 
 _Don't let people tell you otherwise, what we need to solve scalability is:_
 
-- **Domainchains**: Splitting up of blockchains into types of domain specific shards which are easy to use for non-technical and have their own individual execution environment.
+- **Domainchains**: Splitting up of blockchains into types of domain specific shards which are easy to use for non-technical people and have their own individual execution environment.
 - **Interconnectivity**: Connect those shards into a framework that allows them to exchange information. I.e. remove isolation.
 
 _To fullfil the potential blockchain technology has to offer we additionally need:_
