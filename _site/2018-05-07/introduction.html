@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+      Introduction &middot; Trinkler
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+</head>
+
+
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="/">
+          <h2 class="nav-title">Trinkler</h2>
+        </a>
+        <ul>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/fellowship">Fellowship</a></li>
+          <li><a href="/projects">Projects</a></li>
+        </ul>
+    </div>
+  </nav>
+
+    <main>
+      <div class="post">
+  <div class="post-info">
+    <span>Written by</span>
+    
+        R. Trinkler
+    
+
+    
+      <br>
+      <span>on&nbsp;</span><time datetime="2018-05-07 00:00:00 +0200">May 07, 2018</time>
+    
+  </div>
+
+  <h1 class="post-title">Introduction</h1>
+  <div class="post-line"></div>
+
+  <h2 id="introduction">Introduction</h2>
+
+<p>This is a short introduction blog post that touches briefly on the history of blockchain and provides an overview of what readers can expect in the blog posts to follow.</p>
+
+<h2 id="from-bitcoin">From Bitcoin</h2>
+
+<p>Bitcoin has given us a first glimpse of what a distributed (p2p) and open-source financial system could look like. It was designed to be a <em>p2p electronic cash system</em> - a way to exchange and store value that <em>does not require trust in any third-party</em>. This <a href="http://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/">not requiring trust in any third-party was important to Bitcoins Founder Satoshi Nakamoto</a> and should be seen as an indispensable component for any kind of blockchain.</p>
+
+<p><em>Bitcoin</em> was a means of recording ownership of its native token. Conceptually similar projects followed such as <em>Litecoin</em> or <em>Dogecoin.</em></p>
+
+<p><em>Namecoin</em> was one of the earlier projects to realise that blockchain technology can be used for more than just the recording of token ownership. It can also be used to record arbitrary information such as the ownership of domain names. However many of these new projects failed to achieve critical mass.</p>
+
+<p>Their biggest problem was their <em>isolation</em>, meaning that they were unable to talk to each other or benefit from each other in a way that upheld the trust-free nature blockchains were meant to have.</p>
+
+<p>What remained was the clear understanding that blockchains were meant to play a bigger role than simply the store of ownership (although store of ownership remains a major usecase for blockchains).</p>
+
+<h2 id="to-ethereum">To Ethereum</h2>
+
+<p>To achieve this, the ways <em>transactions</em>, or user generated blockchain-external information, could modify the <em>state</em>, or blockchain data layer, were generalised such that they could execute a distributed Turing complete virtual machine. This means transactions were now not just a means of transacting ownership but in fact they were more of a usage right to a <em>shared general purpose computer</em>.</p>
+
+<p>Now things like multiple tokens on one chain or a domain name registry could be easily created on the same blockchain in a way where they were connected with each other. The entire implementation of Namecoin could be reduced to a couple of lines of code! Furthermore, to register a name you could use an already existing token on Ethereum. Due to the fact that they resided on the same blockchain, they were able to talk to each other and benefit from each other. Achieving critical mass was now much simpler as network participants were able to access many different blockchain applications using the same underlying software.</p>
+
+<p>The first blockchain to achieve Turing completeness was Ethereum.</p>
+
+<p>The same way we have seen the idea of Bitcoin be replicated, modified and often improved upon multiple times, we see the same fate for Ethereum.</p>
+
+<p>We see conceptually similar projects such as <em>Neo</em>, <em>Cardano</em> (improves formal correctness) or <em>Rchain</em> (improves performance) and projects similar to Bitcoin with <em>Bitcoin Cash</em> among others. We also see projects where the difference is not of a technical nature but of a philosophical nature - such as <em>Ethereum</em> and <em>Ethereum Classic.</em></p>
+
+<p>While these types of blockchains solved the problem of isolation locally, meaning they were able to talk and benefit from each other as long as the application resided on the same blockchain, they were not able to solve the problem of isolation globally.</p>
+
+<p><em>As blockchains they were unable to talk and benefit from each other.</em></p>
+
+<p>However as demand for these kinds of blockchains grew we saw another problem arise: <em>scalablity</em>. In the first generation of blockchains a user was able to <em>opt out</em> of downloading a record of ownership of one blockchain. For example a Bitcoin user was not forced to download and validate the Dogecoin blockchain. This was not the case with Ethereum-like blockchains. For example on Ethereum a Cryptokitties fan has to forcibly download and validate everything that happens in the asset management world with Melon and vice versa. We’re talking about a shared general purpose computer after all - any (write-) usage of this computer, no matter for what purpose, has to be carried out by the entire network as well.</p>
+
+<p>Cries for scalability grew louder.</p>
+
+<h2 id="to-whats-next---web3">To what’s next - Web3</h2>
+
+<p>There have been multiple attempts to solve or mitigate the scalability problems. These include:</p>
+
+<ul>
+  <li>Various methods of pruning of proof helpers such as historical transactions and blocks,</li>
+  <li>Splitting up of the blockchain state such as sharding,</li>
+  <li>Parallelisation of transaction execution,</li>
+  <li>More performant crypto, networking, virtual machines and consensus algorithms,</li>
+  <li>Off-chain computing such as lightning networks, state-channels.</li>
+</ul>
+
+<p>While these are innovative and promising ideas - all of them are different <em>types of optimization</em>. They’re not fit to solve the problems of <em>isolation</em> and <em>scalablity</em>.</p>
+
+<h3 id="interconnectivity">Interconnectivity</h3>
+
+<p>Ethereum solved the problem of local interconnectivity for applications.
+Networks like <em>Polkadot</em> will solve the problem of global interconnectivity. That is to say, it allows entire blockchains to exchange information in a way that does not require trust in any third party.</p>
+
+<p><em>Don’t let people tell you otherwise, what we need to solve scalability is:</em></p>
+
+<ul>
+  <li><strong>Domainchains</strong>: Splitting up of blockchains into types of domain specific shards which are easy to use for non-technical and have their own individual execution environment.</li>
+  <li><strong>Interconnectivity</strong>: Connect those shards into a framework that allows them to exchange information. I.e. remove isolation.</li>
+</ul>
+
+<p><em>To fullfil the potential blockchain technology has to offer we additionally need:</em></p>
+<ul>
+  <li><strong>Distributed hosting</strong>: To access the blockchain client application and its frontend web application in a way that is trust free.</li>
+</ul>
+
+<p>Those three things will allow us for the first time in human history to build <em>Autonomous Applications</em>.</p>
+
+<h3 id="usability">Usability</h3>
+
+<p>To solve scalability we need to solve usability first. In the context of blockchain design; Usability can be seen as a superset of scalability. What we see happening next is the <em>specialisation</em> of blockchains. This essentially means <em>domain</em> specific blockchains that fullfil only one purpose, where users can easily <em>opt-out</em> of certain domainchains in which they are not interested anymore and change to others - all in the context of interconnectivity. We will see that Blockchains which are specialised enough have a state, or data layer, that is small enough that a user can download it in less than a minute in the context of simply opening up a webpage in browsers. We will take a closer look at this concept in a future post about <em>usability.</em></p>
+
+<h2 id="blog-posts-to-follow">Blog posts to follow</h2>
+
+<p>A collection of blog posts around web3 native topics such as</p>
+<ul>
+  <li><code class="highlighter-rouge">{block-, domain-, web-}</code> chains</li>
+  <li>interconnectivity</li>
+  <li>distributed hosting</li>
+</ul>
+
+<p>and their implications on society.</p>
+
+<p>Topics to follow include</p>
+<ol>
+  <li>DIY-Blockchain part 1: Overview</li>
+  <li>DIY-Blockchain part 2: State</li>
+  <li>DIY-Blockchain part 3: Validity</li>
+  <li>DIY-Blockchain part 4: Canonicality</li>
+  <li>Rise of the domainchains</li>
+  <li>The importance of usability</li>
+  <li>A history of Keynesian economics (The corruption of the Regulator)</li>
+  <li>A history of Austrian economics (The disastrous implications of having no Regulator)</li>
+  <li>A new law is emerging (Autonomous Applications)</li>
+  <li><em>Tools for a catallactic Society</em></li>
+</ol>
+
+<h2 id="acknowledgment">Acknowledgment</h2>
+
+<p>Many of the terms and ideas in featured blog posts originate from the <a href="http://gavwood.com/paper.pdf">Ethereum yellow paper</a>, <a href="https://github.com/w3f/polkadot-white-paper/blob/master/PolkaDotPaper.pdf">Polkadot paper</a>,  <a href="https://github.com/w3f/polkadot-spec/blob/master/spec.md">Polkadot specs</a>, <a href="https://medium.com/nimiq-network/nimiq-a-peer-to-peer-payment-protocol-native-to-the-web-ffd324bb084">Nimiq whitepaper</a> and their corresponding implementations.</p>
+
+<p>For a more extensive list of resources, see the <a href="https://github.com/Trinkler/alexandria">Alexandria</a> collection.</p>
+
+<p>Further sources of inspiration include various discussions with individuals as well as with the entities <a href="https://melonport.com/">Melonport AG</a>, <a href="https://www.parity.io/">Parity Technologies</a>, <a href="https://web3.foundation/">Web3 Foundation</a> and many more.</p>
+
+<p>All writing produced that is inspired by these ideas is reflective of my own opinions, and therefore all errors in the text are also my own. The mentioning of ideas or developments within the blockchain ecosystem or the usage of said ideas as examples within the text is not intended to be suggestive of endorsement. All references made herein seek the purpose of further educating the reader.</p>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Seen a mistake? We ❤ <a href="https://github.com/Trinkler/website/issues/new">issues</a> and <a href="https://github.com/Trinkler/website/fork">pull request</a>!</p>
+
+<p>Engage in the discussion - join us on <a href="https://discord.gg/Te7sWv3">Discord</a>.</p>
+
+<p>Thanks for reading!</p>
+
+
+</div>
+
+<div class="pagination">
+  
+  
+
+  <a href="#" class="top">Top</a>
+</div>
+
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time datetime="2018-05-07 21:32:00 +0200">2018</time> Trinkler. Follow us on <a href="https://twitter.com/trinkler_sh">Twitter</a> and <a href="https://github.com/Trinkler/">Github</a>.
+      </span>
+    </footer>
+  </body>
+
+  
+
+</html>
