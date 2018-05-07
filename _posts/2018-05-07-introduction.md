@@ -106,7 +106,7 @@ All writing produced that is inspired by these ideas is reflective of my own opi
 
 ## Contribute
 
-Seen a mistake? We ❤ [issues](https://github.com/Trinkler/website/issues/new) and [pull request](https://github.com/Trinkler/website/fork)!
+Seen a mistake? We ❤ [issues](https://github.com/Trinkler/website/issues/new) and [pull requests](https://github.com/Trinkler/website/fork)!
 
 Engage in the discussion - join us on [Discord](https://discord.gg/Te7sWv3).
 
