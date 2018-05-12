@@ -90,9 +90,9 @@ Topics to follow include
 4. DIY-Blockchain part 4: Canonicality
 5. Rise of the domainchains
 6. The importance of usability
-7. A history of Keynesian economics (The corruption of the Regulator)
-8. A history of Austrian economics (The disastrous implications of having no Regulator)
-9. A new law is emerging (Autonomous Applications)
+7. A history of Keynesian economics
+8. A history of Austrian economics
+9. A new law is emerging
 10. _Tools for a catallactic Society_
 
 ## Acknowledgment
