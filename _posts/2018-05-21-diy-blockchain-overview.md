@@ -21,7 +21,7 @@ So lets begin:
 
 A _blockchain_ is a [transactional singleton machine with a shared-state](https://ethereum.github.io/yellowpaper/paper.pdf). That is to say it is a virtual computer with a shared data storage as well as an emulated and shared CPU called a virtual machine. The shared data storage as well as the shared virtual machine are the same for each participant running this virtual computer - they are canonical.
 
-A _domainchain_, sometimes also referred to as a _parachain_ or _zone_, is a domain-specific blockchain. An example for a domainchain is [Melonport](https://melonport.com).
+A _domainchain_, sometimes also referred to as a _parachain_ or _zone_, is a domain-specific blockchain. An example for a domainchain is [Melonchain](https://trinkler.sh/projects/).
 
 A _webchain_ is a blockchain that is executable in the browser. An example of a webchain is [Nimiq](https://nimiq.com).
 
