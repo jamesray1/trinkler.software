@@ -62,9 +62,9 @@ What we see happening next is the _specialisation_ of blockchains. This essentia
 
 We will see that Blockchains which are specialised enough have a state, that is small enough that a user can download it in less than a minute in the context of simply opening up a webpage in browsers. We will take a closer look at this concept in a future post about _usability._
 
-### Scalability
+### Usability
 
-_Don't let people tell you otherwise, what we need to solve scalability is:_
+Usability as a superset of scalability. What we need to solve scalability is:
 
 - **Domainchains**: Splitting up of blockchains into types of domain specific shards which are easy to use for non-technical people and have their own individual execution environment.
 - **Interconnectivity**: Connect those shards into a framework that allows them to exchange information. I.e. remove isolation.
