@@ -13,6 +13,12 @@ The burning of the Library of Alexandria, including the incalculable loss of anc
 
 The Trinkler Github repository [Alexandria](https://github.com/Trinkler/alexandria) is an attempt to rebuild a digital version of this library for everything blockchain related.
 
+### Contribute
+
+This can only be a collaberative effort.  We ❤ [issues](https://github.com/Trinkler/alexandria/issues/new) and [pull request](https://github.com/Trinkler/alexandria/fork)!
+
+Thanks for reading!
+
 ## Melonchain
 
 Melonchain is a domain specific [transactional singleton machine with shared-state](https://ethereum.github.io/yellowpaper/paper.pdf) or _Blockchain_.
@@ -24,9 +30,3 @@ Melonchain is a domain specific [transactional singleton machine with shared-sta
 - **Robust**: We build Melon on sound economics and tech standards. We keep a well organized, clean and readable codebase; anticipate errors and avoid interuptions. We won't have any central points of failure.
 
 Melonchain is being developped by [Trinkler Software AG](https://github.com/Trinkler/).
-
-### Contribute
-
-This can only be a collaberative effort.  We ❤ [issues](https://github.com/Trinkler/alexandria/issues/new) and [pull request](https://github.com/Trinkler/alexandria/fork)!
-
-Thanks for reading!
