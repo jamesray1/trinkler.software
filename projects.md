@@ -27,6 +27,6 @@ Melonchain is a domain specific [transactional singleton machine with shared-sta
 - **Minimal**: We focus on one thing and one thing only: Asset Management. This however we do better than anyone else. We take the advancements of tech as they are. We don't bother with being compliant with legacy structures and institutions.
 - **Robust**: We build Melon on sound economics and tech standards. We keep a well organized, clean and readable codebase; anticipate errors and avoid interuptions. We won't have any central points of failure.
 
-Melonchain is being developped by [Trinkler Software AG](https://github.com/Trinkler/).
+Melonchain is developped by [Trinkler Software AG](https://github.com/Trinkler/).
 
 Thanks for reading!
