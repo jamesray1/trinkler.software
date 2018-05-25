@@ -47,7 +47,7 @@ Topics include:
     - State
     - Object
 - Retrieval
-    - Patrica Merkel Tree
+    - Patrica Merkle Tree
     - Orthogonal Range Tree
 - Storage
     - Partitioning (Sharding)
