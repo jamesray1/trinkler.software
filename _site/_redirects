@@ -1,11 +1,11 @@
 # Redirect domain aliases to primary domain
-https://trinkler.software/* https://trinkler.sh/:splat 301!
-https://www.trinkler.sh/* https://trinkler.sh/:splat 301!
+https://trinkler.sh/* https://trinkler.software/:splat 301!
+https://www.trinkler.sh/* https://trinkler.software/:splat 301!
 
 # These extra rules are required because HTTPS is not forced
-http://trinkler.software/* https://trinkler.sh/:splat 301!
-http://www.trinkler.sh/* https://trinkler.sh/:splat 301!
+http://trinkler.sh/* https://trinkler.software/:splat 301!
+http://www.trinkler.sh/* https://trinkler.software/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
-https://trinkler.netlify.com/* https://trinkler.sh/:splat 301!
-http://trinkler.netlify.com/* https://trinkler.sh/:splat 301!
+https://trinkler.netlify.com/* https://trinkler.software/:splat 301!
+http://trinkler.netlify.com/* https://trinkler.software/:splat 301!
