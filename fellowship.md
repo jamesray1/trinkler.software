@@ -30,4 +30,4 @@ With information about yourself and what you would like to build. We have a spec
 
 Application deadline is December 31st {{ site.time | date: '%Y' }}.
 
-Thanks for reading!
+Join us on [Discord](https://discord.gg/Te7sWv3). Thanks for reading!

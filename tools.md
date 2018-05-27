@@ -29,4 +29,4 @@ Melonchain is a domain specific [transactional singleton machine with shared-sta
 
 Melonchain is developed by [Trinkler Software AG](https://github.com/Trinkler/).
 
-Thanks for reading!
+Join us on [Discord](https://discord.gg/Te7sWv3). Thanks for reading!
