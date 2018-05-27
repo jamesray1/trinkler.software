@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Software"
+title: "About"
 author: "R. Trinkler"
 permalink: /about/
 ---
