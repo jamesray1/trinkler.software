@@ -1,5 +1,6 @@
 # Site settings
 title:          Trinkler
+company:        Trinkler Software AG
 description:    "Tools for a catallactic society"
 baseurl:        ""
 url:            "https://trinkler.github.io"
