@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Projects"
+title: "Tools"
 author: "R. Trinkler"
-permalink: /projects/
+permalink: /tools/
 ---
 
 ## Alexandria
