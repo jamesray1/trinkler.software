@@ -4,36 +4,17 @@
 
 Trinkler is based on `Tale` a minimal Jekyll theme curated for storytellers. Checkout the demo [here](https://chesterhow.github.io/tale/).
 
-## Features
-- Easy installation
-- Compatible with GitHub Pages
-- Responsive design (looks just as good on mobile)
-- Syntax highlighting, with the help of Pygments
-- Markdown and HTML text formatting
-- Pagination of posts
-
-## Usage
-Once you've installed the theme, you're ready to work on your Jekyll site. To start off, I would recommend updating `_config.yml` with your site's details.
-
-To build and serve your site, run:
+## Build Setup
 
 ```bash
-$ bundle exec jekyll serve
+# run and serve site at localhost:4000
+$ npm start
+# run and serve site including all drafts at localhost:4000
+$ npm t
+# build site for production
+$ npm deploy
 ```
-
-to include the _draft_ posts run:
-
-```bash
-$ bundle exec jekyll serve --drafts
-```
-
-to build production version run:
-
-```bash
-$ JEKYLL_ENV=production bundle exec jekyll build
-```
-
-And you're all set! Head over to http://127.0.0.1:4000/ to see your site in action.
 
 ## Contributing
-Found a bug or have a suggestion? Feel free to create an issue or make a pull request!
+
+Help us improve. We ❤ [issues](https://github.com/Trinkler/trinkler.software/issues/new) and [pull request](https://github.com/Trinkler/trinkler.software/fork)!
