@@ -1,24 +1,20 @@
 {
   "name": "trinkler.software",
   "version": "1.0.0",
-  "description": "The code behind the Trinkler software website https://trinkler.software",
+  "description":
+    "The code behind the Trinkler software website https://trinkler.software",
   "main": "index.js",
   "scripts": {
     "test": "bundle exec jekyll serve --drafts",
     "start": "bundle exec jekyll serve",
-    "deploy": "JEKYLL_ENV=production bundle exec jekyll build"
+    "deploy":
+      "JEKYLL_ENV=production bundle exec jekyll build && cp _redirects _site/_redirects"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Trinkler/website.git"
   },
-  "keywords": [
-    "Tools",
-    "Catallactics",
-    "Crypto",
-    "P2P",
-    "Blockchain"
-  ],
+  "keywords": ["Tools", "Catallactics", "Crypto", "P2P", "Blockchain"],
   "author": "Trinkler Software AG <company@trinkler.software>",
   "license": "GPL-3.0",
   "bugs": {
