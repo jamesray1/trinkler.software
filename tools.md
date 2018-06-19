@@ -15,18 +15,12 @@ The Trinkler Github repository [Alexandria](https://github.com/Trinkler/alexandr
 
 ### Contribute
 
-This can only be a collaberative effort.  We ❤ [issues](https://github.com/Trinkler/alexandria/issues/new) and [pull request](https://github.com/Trinkler/alexandria/fork)!
+This can only be a collaborative effort. We ❤ [issues](https://github.com/Trinkler/alexandria/issues/new) and [pull request](https://github.com/Trinkler/alexandria/fork)!
 
 ## Melonchain
 
 Melonchain is a domain specific [transactional singleton machine with shared-state](https://ethereum.github.io/yellowpaper/paper.pdf) or _Blockchain_.
 
-### Melon's primary tenets
-
-- **Usable**: Our primary goal is to build something that is _usable_. It's our responsiblity to make the complex simple. Our application has a clear focus and we require as little work from the user as possible.
-- **Minimal**: We focus on one thing and one thing only: Asset Management. This however we do better than anyone else. We take the advancements of tech as they are. We don't bother with being compliant with legacy structures and institutions.
-- **Robust**: We build Melon on sound economics and tech standards. We keep a well organized, clean and readable codebase; anticipate errors and avoid interuptions. We won't have any central points of failure.
-
-Melonchain is developed by [Trinkler Software AG](https://www.linkedin.com/company/trinkler-software/).
+The feasibility of Melonchain is researched by [Trinkler Software AG](https://www.linkedin.com/company/trinkler-software/).
 
 Join us on [Discord](https://discord.gg/Te7sWv3). Thanks for reading!
