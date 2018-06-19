@@ -19,7 +19,7 @@ This can only be a collaborative effort. We ❤ [issues](https://github.com/Trin
 
 ## Melonchain
 
-Melonchain is a domain specific [transactional singleton machine with shared-state](https://ethereum.github.io/yellowpaper/paper.pdf) or _Blockchain_.
+Melonchain is a domain specific [transactional singleton machine with shared-state](https://ethereum.github.io/yellowpaper/paper.pdf) or _Blockchain_ for Asset Management.
 
 The feasibility of Melonchain is researched by [Trinkler Software AG](https://www.linkedin.com/company/trinkler-software/).
 
