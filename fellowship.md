@@ -24,8 +24,8 @@ To ensure that technology caters to the overall benefit of humanity as opposed t
 ## Apply
 
 To apply for a _Fellowship_ send us an email:
-<a href="mailto:fellowship@trinkler.sh?Subject=Application%20Trinkler%20Fellowship" target="_top">fellowship@trinkler.sh</a>.
-PGP Fingerprint: `FF10 F960 BE8B B78D 985B 898E 4202 21C4 B729 495F`.
+<a href="mailto:fellowship@trinkler.software?Subject=Application%20Trinkler%20Fellowship" target="_top">fellowship@trinkler.software</a>.
+PGP Fingerprint: `E209 3380 CDED 8163 04B7 43EF 938B A92A DC4E 07DE`.
 With information about yourself and what you would like to build. We have a special affinity for open-source coders and university dropouts ❤.
 
 Application deadline is December 31st {{ site.time | date: '%Y' }}.
