@@ -21,13 +21,13 @@ So lets begin:
 
 A _blockchain_ is a [transactional singleton machine with a shared-state](https://ethereum.github.io/yellowpaper/paper.pdf). That is to say it is a virtual computer with a shared data storage as well as an emulated and shared CPU called a virtual machine. The shared data storage as well as the shared virtual machine are the same for each participant running this virtual computer - they are canonical.
 
-A _domainchain_, sometimes also referred to as a _parachain_ or _zone_, is a domain-specific blockchain. An example for a domainchain is [Melonchain](https://trinkler.sh/projects/).
+A _domainchain_, sometimes also referred to as a _parachain_ or _zone_, is a domain-specific blockchain.
 
-A _webchain_ is a blockchain that is executable in the browser. An example of a webchain is [Nimiq](https://nimiq.com).
+A _webchain_ is a blockchain that is executable in the browser.
 
 Not every blockchain is a webchain or domainchain. But all webchains and domainchains are blockchains.
 
-Generally speaking we can split our blockchain into three parts: __State, Validity and Canonicality.__ In the following three sections we will talk about these parts, their comparisons to a traditional computer, their main goals, and the topics that they encompass. We will follow up on this in the following three blog posts.
+Generally speaking we can split our blockchain into three parts: **State, Validity and Canonicality.** In the following three sections we will talk about these parts, their comparisons to a traditional computer, their main goals, and the topics that they encompass. We will follow up on this in the following three blog posts.
 
 ## State
 
@@ -36,23 +36,25 @@ _**Traditional (Data)**: A technology consisting of computer components and reco
 Shared data is data that is distributed amongst a network of participants, where distributed data can always be _validated_ locally without the need for trust. Furthermore, the distribution happens in a byzantine tolerant way. To elaborate, there is a mechanism in place with which network participants can come to consensus over which data to distribute and validate (canonicality).
 
 The storage or **State** has two main goals
+
 - Provide an efficient way to query information (retrieval)
 - Lower disk storage footprint (storage)
 
 Note `read` and `write` operations to the state are inherently different in blockchain networks. `Read` can be done very efficiently as the database to read from (the state) is already on the local machine of the user. `Write` operations on the other hand are very inefficient as each modification to the database needs to be propagated through the network and then canonicalised. In this part we will focus on `read/retrival` operations and on how to keep storage footprints low. In the canonicality part we will look into different networking protocols and canonicality algorithms which can make `write` operations more efficient.
 
 Topics include:
+
 - Transaction linking vs State
 - Definitions
-    - State
-    - Object
+  - State
+  - Object
 - Retrieval
-    - Patrica Merkle Tree
-    - Orthogonal Range Tree
+  - Patrica Merkle Tree
+  - Orthogonal Range Tree
 - Storage
-    - Partitioning (Sharding)
-    - Off-chain computing/storage (Plasma)
-    - Maintenance Fees
+  - Partitioning (Sharding)
+  - Off-chain computing/storage (Plasma)
+  - Maintenance Fees
 
 ## Validity
 
@@ -61,23 +63,25 @@ _**Traditional (CPU)**: The central processing unit (CPU) of a computer is what 
 The VM is the execution environment that can modify the state. Modifications happen according to a ruleset defined in a **state transition function**. By applying the state transition function from the very first block, the _Genesis Block_, to the latest Block, the _Head_, we can _validate_ the integrity and accuracy of our local copy of the blockchain state.
 
 The **Validity** has as its main goals:
+
 - Allowing for efficient/light state transition proofs (performance).
 - Minimizing the amount of proof helpers (maximizing state pruning)
 
 Topics include:
+
 - Definitions
-    - Transaction
-    - Block
-    - State Transition Function
+  - Transaction
+  - Block
+  - State Transition Function
 - Runtime (VM)
-    - Turing completeness
-    - Compilers
+  - Turing completeness
+  - Compilers
 - Validity proofs
-    - Full node
-    - Light client
-    - Canonical Hash Tree
-    - Nano client
-    - NiPoPoW
+  - Full node
+  - Light client
+  - Canonical Hash Tree
+  - Nano client
+  - NiPoPoW
 
 ## Canonicality
 
@@ -86,26 +90,28 @@ _**Modern (One truth):** A new concept, native to blockchain technology. Establi
 Once we have our state and a proof of validity, we need to come to consensus as to which one of the possibly multiple proofs of validity we should use as a network.
 
 The **Canonicality** has as its main goals:
+
 - Coming to consensus on which validity proof to use (avoiding network splits and solving transaction ordering problems)
 - Minimizing networking requirements to come to consensus (performance)
 
 Topics include:
+
 - Byzantine generals problem
 - Transaction ordering problem
 - Definition
-    - Consensus
+  - Consensus
 - Consensus Algorithm
-    - Proof of Work
-    - Proof of Stake
-    - Proof of Authority
-    - Proof of Spacetime
-    - Proof of Reputation
-    - Proof of Computing Work
+  - Proof of Work
+  - Proof of Stake
+  - Proof of Authority
+  - Proof of Spacetime
+  - Proof of Reputation
+  - Proof of Computing Work
 - Exchange of information (Networking)
-    - Bootstrapping
-    - Ethereum Wire Protocol
-    - Libp2p
-    - WebRTC
+  - Bootstrapping
+  - Ethereum Wire Protocol
+  - Libp2p
+  - WebRTC
 
 ## Conclusion
 

@@ -69,9 +69,9 @@
 
 <p>A <em>blockchain</em> is a <a href="https://ethereum.github.io/yellowpaper/paper.pdf">transactional singleton machine with a shared-state</a>. That is to say it is a virtual computer with a shared data storage as well as an emulated and shared CPU called a virtual machine. The shared data storage as well as the shared virtual machine are the same for each participant running this virtual computer - they are canonical.</p>
 
-<p>A <em>domainchain</em>, sometimes also referred to as a <em>parachain</em> or <em>zone</em>, is a domain-specific blockchain. An example for a domainchain is <a href="https://trinkler.sh/projects/">Melonchain</a>.</p>
+<p>A <em>domainchain</em>, sometimes also referred to as a <em>parachain</em> or <em>zone</em>, is a domain-specific blockchain.</p>
 
-<p>A <em>webchain</em> is a blockchain that is executable in the browser. An example of a webchain is <a href="https://nimiq.com">Nimiq</a>.</p>
+<p>A <em>webchain</em> is a blockchain that is executable in the browser.</p>
 
 <p>Not every blockchain is a webchain or domainchain. But all webchains and domainchains are blockchains.</p>
 
@@ -84,6 +84,7 @@
 <p>Shared data is data that is distributed amongst a network of participants, where distributed data can always be <em>validated</em> locally without the need for trust. Furthermore, the distribution happens in a byzantine tolerant way. To elaborate, there is a mechanism in place with which network participants can come to consensus over which data to distribute and validate (canonicality).</p>
 
 <p>The storage or <strong>State</strong> has two main goals</p>
+
 <ul>
   <li>Provide an efficient way to query information (retrieval)</li>
   <li>Lower disk storage footprint (storage)</li>
@@ -92,6 +93,7 @@
 <p>Note <code class="highlighter-rouge">read</code> and <code class="highlighter-rouge">write</code> operations to the state are inherently different in blockchain networks. <code class="highlighter-rouge">Read</code> can be done very efficiently as the database to read from (the state) is already on the local machine of the user. <code class="highlighter-rouge">Write</code> operations on the other hand are very inefficient as each modification to the database needs to be propagated through the network and then canonicalised. In this part we will focus on <code class="highlighter-rouge">read/retrival</code> operations and on how to keep storage footprints low. In the canonicality part we will look into different networking protocols and canonicality algorithms which can make <code class="highlighter-rouge">write</code> operations more efficient.</p>
 
 <p>Topics include:</p>
+
 <ul>
   <li>Transaction linking vs State</li>
   <li>Definitions
@@ -122,12 +124,14 @@
 <p>The VM is the execution environment that can modify the state. Modifications happen according to a ruleset defined in a <strong>state transition function</strong>. By applying the state transition function from the very first block, the <em>Genesis Block</em>, to the latest Block, the <em>Head</em>, we can <em>validate</em> the integrity and accuracy of our local copy of the blockchain state.</p>
 
 <p>The <strong>Validity</strong> has as its main goals:</p>
+
 <ul>
   <li>Allowing for efficient/light state transition proofs (performance).</li>
   <li>Minimizing the amount of proof helpers (maximizing state pruning)</li>
 </ul>
 
 <p>Topics include:</p>
+
 <ul>
   <li>Definitions
     <ul>
@@ -160,12 +164,14 @@
 <p>Once we have our state and a proof of validity, we need to come to consensus as to which one of the possibly multiple proofs of validity we should use as a network.</p>
 
 <p>The <strong>Canonicality</strong> has as its main goals:</p>
+
 <ul>
   <li>Coming to consensus on which validity proof to use (avoiding network splits and solving transaction ordering problems)</li>
   <li>Minimizing networking requirements to come to consensus (performance)</li>
 </ul>
 
 <p>Topics include:</p>
+
 <ul>
   <li>Byzantine generals problem</li>
   <li>Transaction ordering problem</li>
@@ -230,7 +236,7 @@
 
     <footer>
       <span>
-        &copy; <time datetime="2018-06-25 09:19:34 +0200">2018</time> <a href="https://www.linkedin.com/company/trinkler-software/">Trinkler Software AG</a>.
+        &copy; <time datetime="2018-07-06 21:07:39 +0200">2018</time> <a href="https://www.linkedin.com/company/trinkler-software/">Trinkler Software AG</a>.
         <a href="https://twitter.com/trinkler_sw">Twitter</a>, <a href="https://github.com/Trinkler/">Github</a> and <a href="https://discord.gg/Te7sWv3">Discord</a>.
       </span>
     </footer>

@@ -17,10 +17,10 @@ The Trinkler Github repository [Alexandria](https://github.com/Trinkler/alexandr
 
 This can only be a collaborative effort. We ❤ [issues](https://github.com/Trinkler/alexandria/issues/new) and [pull request](https://github.com/Trinkler/alexandria/fork)!
 
-## Melonchain
+## Imagewallet
 
-Melonchain is a domain specific [transactional singleton machine with shared-state](https://ethereum.github.io/yellowpaper/paper.pdf) or _Blockchain_ for Asset Management.
+Simpler than brainwallets just as secure as regular wallets.
 
-The feasibility of Melonchain is researched by [Trinkler Software AG](https://www.linkedin.com/company/trinkler-software/).
+We ❤ [issues](https://github.com/Trinkler/imagewallet/issues/new) and [pull request](https://github.com/Trinkler/imagewallet/fork)!
 
 Join us on [Discord](https://discord.gg/Te7sWv3). Thanks for reading!
