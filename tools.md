@@ -19,7 +19,7 @@ This can only be a collaborative effort. We ❤ [issues](https://github.com/Trin
 
 ## Imagewallet
 
-Simpler than brainwallets just as secure as regular wallets.
+Simpler than brainwallets - as secure as regular wallets.
 
 We ❤ [issues](https://github.com/Trinkler/imagewallet/issues/new) and [pull request](https://github.com/Trinkler/imagewallet/fork)!
 
