@@ -13,16 +13,18 @@ The burning of the Library of Alexandria, including the incalculable loss of anc
 
 The Trinkler Github repository [Alexandria](https://github.com/Trinkler/alexandria) is an attempt to rebuild a digital version of this library for everything blockchain related.
 
-### Contribute
-
-This can only be a collaborative effort. We ❤ [issues](https://github.com/Trinkler/alexandria/issues/new) and [pull request](https://github.com/Trinkler/alexandria/fork).
+Alexandria can only be a collaborative effort. We ❤ [issues](https://github.com/Trinkler/alexandria/issues/new) and [pull requests](https://github.com/Trinkler/alexandria/fork).
 
 ## Imagewallet
 
-_Simpler than brainwallets just as secure as regular wallets._
+_A custodian file that is simpler than [brainwallets](https://en.bitcoin.it/wiki/Brainwallet) and can be used for the entire blockchain ecosystem._
 
 Imagewallets can be used to generate private and public keys and to sign transactions for all of the major blockchains such as Bitcoin, Ethereum, Ripple, Polkadot, Nimiq. Imagewallets are your all access key to the entire blockchain ecosystem.
 
 On top of that Imagewallets are easy-to-use [login credentials](https://blog.colony.io/securing-local-storage-for-dapps-33dc4d52e1fd) that give you access to distributed [content-addressed](https://ipfs.io) applications.
 
-We ❤ [issues](https://github.com/Trinkler/imagewallet/issues/new) and [pull request](https://github.com/Trinkler/imagewallet/fork).
+Add your own design. We ❤ [issues](https://github.com/Trinkler/imagewallet/issues/new) and [pull requests](https://github.com/Trinkler/imagewallet/fork).
+
+## Inter alia
+
+Many more tools are in the pipeline. Follow us on [Twitter](https://twitter.com/trinkler_sw) or join us on [Discord](https://discord.gg/Te7sWv3) to not [lose touch with reality](https://www.youtube.com/watch?v=UYfh9YhUVdE).
