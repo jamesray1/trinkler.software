@@ -27,4 +27,4 @@ Add your own design. We ❤ [issues](https://github.com/Trinkler/imagewallet/iss
 
 ## Inter alia
 
-Many more tools are in the pipeline. Follow us on [Twitter](https://twitter.com/trinkler_sw) or join us on [Discord](https://discord.gg/Te7sWv3) to not [lose touch with reality](https://www.youtube.com/watch?v=UYfh9YhUVdE).
+Many more tools are on the assembly line. Follow us on [Twitter](https://twitter.com/trinkler_sw) or join us on [Discord](https://discord.gg/Te7sWv3) to not [lose touch with reality](https://www.youtube.com/watch?v=UYfh9YhUVdE).
