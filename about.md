@@ -11,4 +11,4 @@ Catallactics doesn’t only mean “to exchange”, or to “trade”, but also 
 
 Our vision is _to have come into this dark world like a bright star in the southern sky_ - Papyrus of Nebseni.
 
-Join us on [Discord](https://discord.gg/Te7sWv3). Thanks for reading!
+For any inquires contact <a href="mailto:company@trinkler.software?Subject=Inquiry" target="_top">company@trinkler.software</a>.

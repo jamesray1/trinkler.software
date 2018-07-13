@@ -29,5 +29,3 @@ PGP Fingerprint: `E209 3380 CDED 8163 04B7 43EF 938B A92A DC4E 07DE`.
 With information about yourself and what you would like to build. We have a special affinity for open-source coders and university dropouts ❤.
 
 Application deadline is December 31st {{ site.time | date: '%Y' }}.
-
-Join us on [Discord](https://discord.gg/Te7sWv3). Thanks for reading!

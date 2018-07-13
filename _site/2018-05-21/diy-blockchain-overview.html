@@ -92,31 +92,6 @@
 
 <p>Note <code class="highlighter-rouge">read</code> and <code class="highlighter-rouge">write</code> operations to the state are inherently different in blockchain networks. <code class="highlighter-rouge">Read</code> can be done very efficiently as the database to read from (the state) is already on the local machine of the user. <code class="highlighter-rouge">Write</code> operations on the other hand are very inefficient as each modification to the database needs to be propagated through the network and then canonicalised. In this part we will focus on <code class="highlighter-rouge">read/retrival</code> operations and on how to keep storage footprints low. In the canonicality part we will look into different networking protocols and canonicality algorithms which can make <code class="highlighter-rouge">write</code> operations more efficient.</p>
 
-<p>Topics include:</p>
-
-<ul>
-  <li>Transaction linking vs State</li>
-  <li>Definitions
-    <ul>
-      <li>State</li>
-      <li>Object</li>
-    </ul>
-  </li>
-  <li>Retrieval
-    <ul>
-      <li>Patrica Merkle Tree</li>
-      <li>Orthogonal Range Tree</li>
-    </ul>
-  </li>
-  <li>Storage
-    <ul>
-      <li>Partitioning (Sharding)</li>
-      <li>Off-chain computing/storage (Plasma)</li>
-      <li>Maintenance Fees</li>
-    </ul>
-  </li>
-</ul>
-
 <h2 id="validity">Validity</h2>
 
 <p><em><strong>Traditional (CPU)</strong>: The central processing unit (CPU) of a computer is what manipulates data by performing computations. <strong>Modern (VM)</strong>: In our case the CPU is virtual (software rather than hardware) and emulated using the hardware CPU. This is called a Virtual Machine (VM).</em></p>
@@ -130,33 +105,6 @@
   <li>Minimizing the amount of proof helpers (maximizing state pruning)</li>
 </ul>
 
-<p>Topics include:</p>
-
-<ul>
-  <li>Definitions
-    <ul>
-      <li>Transaction</li>
-      <li>Block</li>
-      <li>State Transition Function</li>
-    </ul>
-  </li>
-  <li>Runtime (VM)
-    <ul>
-      <li>Turing completeness</li>
-      <li>Compilers</li>
-    </ul>
-  </li>
-  <li>Validity proofs
-    <ul>
-      <li>Full node</li>
-      <li>Light client</li>
-      <li>Canonical Hash Tree</li>
-      <li>Nano client</li>
-      <li>NiPoPoW</li>
-    </ul>
-  </li>
-</ul>
-
 <h2 id="canonicality">Canonicality</h2>
 
 <p><em><strong>Modern (One truth):</strong> A new concept, native to blockchain technology. Establishes one truth among many possiblities.</em></p>
@@ -168,36 +116,6 @@
 <ul>
   <li>Coming to consensus on which validity proof to use (avoiding network splits and solving transaction ordering problems)</li>
   <li>Minimizing networking requirements to come to consensus (performance)</li>
-</ul>
-
-<p>Topics include:</p>
-
-<ul>
-  <li>Byzantine generals problem</li>
-  <li>Transaction ordering problem</li>
-  <li>Definition
-    <ul>
-      <li>Consensus</li>
-    </ul>
-  </li>
-  <li>Consensus Algorithm
-    <ul>
-      <li>Proof of Work</li>
-      <li>Proof of Stake</li>
-      <li>Proof of Authority</li>
-      <li>Proof of Spacetime</li>
-      <li>Proof of Reputation</li>
-      <li>Proof of Computing Work</li>
-    </ul>
-  </li>
-  <li>Exchange of information (Networking)
-    <ul>
-      <li>Bootstrapping</li>
-      <li>Ethereum Wire Protocol</li>
-      <li>Libp2p</li>
-      <li>WebRTC</li>
-    </ul>
-  </li>
 </ul>
 
 <h2 id="conclusion">Conclusion</h2>
@@ -236,7 +154,7 @@
 
     <footer>
       <span>
-        &copy; <time datetime="2018-07-07 00:40:51 +0200">2018</time> <a href="https://www.linkedin.com/company/trinkler-software/">Trinkler Software AG</a>.
+        &copy; <time datetime="2018-07-13 13:20:15 +0200">2018</time> <a href="https://www.linkedin.com/company/trinkler-software/">Trinkler Software AG</a>.
         <a href="https://twitter.com/trinkler_sw">Twitter</a>, <a href="https://github.com/Trinkler/">Github</a> and <a href="https://discord.gg/Te7sWv3">Discord</a>.
       </span>
     </footer>

@@ -42,20 +42,6 @@ The storage or **State** has two main goals
 
 Note `read` and `write` operations to the state are inherently different in blockchain networks. `Read` can be done very efficiently as the database to read from (the state) is already on the local machine of the user. `Write` operations on the other hand are very inefficient as each modification to the database needs to be propagated through the network and then canonicalised. In this part we will focus on `read/retrival` operations and on how to keep storage footprints low. In the canonicality part we will look into different networking protocols and canonicality algorithms which can make `write` operations more efficient.
 
-Topics include:
-
-- Transaction linking vs State
-- Definitions
-  - State
-  - Object
-- Retrieval
-  - Patrica Merkle Tree
-  - Orthogonal Range Tree
-- Storage
-  - Partitioning (Sharding)
-  - Off-chain computing/storage (Plasma)
-  - Maintenance Fees
-
 ## Validity
 
 _**Traditional (CPU)**: The central processing unit (CPU) of a computer is what manipulates data by performing computations. **Modern (VM)**: In our case the CPU is virtual (software rather than hardware) and emulated using the hardware CPU. This is called a Virtual Machine (VM)._
@@ -67,22 +53,6 @@ The **Validity** has as its main goals:
 - Allowing for efficient/light state transition proofs (performance).
 - Minimizing the amount of proof helpers (maximizing state pruning)
 
-Topics include:
-
-- Definitions
-  - Transaction
-  - Block
-  - State Transition Function
-- Runtime (VM)
-  - Turing completeness
-  - Compilers
-- Validity proofs
-  - Full node
-  - Light client
-  - Canonical Hash Tree
-  - Nano client
-  - NiPoPoW
-
 ## Canonicality
 
 _**Modern (One truth):** A new concept, native to blockchain technology. Establishes one truth among many possiblities._
@@ -93,25 +63,6 @@ The **Canonicality** has as its main goals:
 
 - Coming to consensus on which validity proof to use (avoiding network splits and solving transaction ordering problems)
 - Minimizing networking requirements to come to consensus (performance)
-
-Topics include:
-
-- Byzantine generals problem
-- Transaction ordering problem
-- Definition
-  - Consensus
-- Consensus Algorithm
-  - Proof of Work
-  - Proof of Stake
-  - Proof of Authority
-  - Proof of Spacetime
-  - Proof of Reputation
-  - Proof of Computing Work
-- Exchange of information (Networking)
-  - Bootstrapping
-  - Ethereum Wire Protocol
-  - Libp2p
-  - WebRTC
 
 ## Conclusion
 
