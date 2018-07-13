@@ -19,7 +19,7 @@ Alexandria can only be a collaborative effort. We ❤ [issues](https://github.co
 
 _A custodian file that is simpler than [brainwallets](https://en.bitcoin.it/wiki/Brainwallet) and can be used for the entire blockchain ecosystem._
 
-Imagewallets can be used to generate private and public keys and to sign transactions for all of the major blockchains such as Bitcoin, Ethereum, Ripple, Polkadot, Nimiq. Imagewallets are your all access key to the entire blockchain ecosystem.
+Imagewallets can be used to generate private and public keys and to sign transactions for all of the major blockchains such as Bitcoin, Ethereum, Ripple, Polkadot, Nimiq. Imagewallets are your all access key to the blockchain ecosystem.
 
 On top of that Imagewallets are easy-to-use [login credentials](https://blog.colony.io/securing-local-storage-for-dapps-33dc4d52e1fd) that give you access to distributed [content-addressed](https://ipfs.io) applications.
 
