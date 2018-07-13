@@ -15,7 +15,7 @@ The Trinkler Github repository [Alexandria](https://github.com/Trinkler/alexandr
 
 ### Contribute
 
-This can only be a collaborative effort. We ❤ [issues](https://github.com/Trinkler/alexandria/issues/new) and [pull request](https://github.com/Trinkler/alexandria/fork)!
+This can only be a collaborative effort. We ❤ [issues](https://github.com/Trinkler/alexandria/issues/new) and [pull request](https://github.com/Trinkler/alexandria/fork).
 
 ## Imagewallet
 
@@ -24,5 +24,3 @@ _Simpler than brainwallets just as secure as regular wallets._
 Imagewallets can be used to generate private and public keys and to sign transactions for all of the major blockchains such as Bitcoin, Ethereum, Ripple, Polkadot, Nimiq. Imagewallets are your all access key to the entire blockchain ecosystem.
 
 On top of that Imagewallets are easy-to-use [login credentials](https://blog.colony.io/securing-local-storage-for-dapps-33dc4d52e1fd) that give you access to distributed [content-addressed](https://ipfs.io) applications.
-
-We ❤ [issues](https://github.com/Trinkler/imagewallet/issues/new) and [pull request](https://github.com/Trinkler/imagewallet/fork)!
