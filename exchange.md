@@ -7,7 +7,7 @@ permalink: /exchange/
 
 [Agora Trade](https://agora.trade) is the first ever user-friendly implementation of a cross-chain, custodial free cryptocurrency exchange.
 
-For more information visit:
+For more information see:
 
 - [agora.trade](https://agora.trade)
 - [techical details](https://hackmd.io)
