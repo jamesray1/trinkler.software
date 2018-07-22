@@ -10,7 +10,7 @@ permalink: /exchange/
 For more information see:
 
 - [agora.trade](https://agora.trade)
-- [techical details](https://hackmd.io)
+- [techical paper](https://hackmd.io/s/BkCvGOMNX)
 
 Developers get involved:
 
