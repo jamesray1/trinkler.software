@@ -112,4 +112,5 @@ Seen a mistake? We ❤ [issues](https://github.com/Trinkler/website/issues/new) 
 
 Engage in the discussion - join us on [Discord](https://discord.gg/Te7sWv3).
 
-Thanks for reading!
+Thank you for reading.
+

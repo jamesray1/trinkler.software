@@ -25,6 +25,12 @@ On top of that Imagewallets are easy-to-use [login credentials](https://blog.col
 
 Add your own design. We ❤ [issues](https://github.com/Trinkler/imagewallet/issues/new) and [pull requests](https://github.com/Trinkler/imagewallet/fork).
 
+## Exchange
+
+_A cross-chain, custodian-free, cryptocurrency exchange._ See [Agora Trade](https://trinkler.software/exchange) for more information.
+
 ## Inter alia
 
 Many more tools are on the assembly line. Follow us on [Twitter](https://twitter.com/trinkler_sw) and join us on [Discord](https://discord.gg/Te7sWv3) to [not lose touch with reality](https://www.youtube.com/watch?v=UYfh9YhUVdE).
+
+Thank you for reading.
