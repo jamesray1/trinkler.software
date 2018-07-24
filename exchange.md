@@ -19,8 +19,8 @@ Developers get involved:
 
 Our code is open-source:
 
-- [htlc](https://github.com/Trinkler/htlc)
-- [atomic-swap](https://github.com/Trinkler/atomic-swap)
+- [agora-htlcs](https://github.com/Trinkler/agora-htlcs)
+- [agora-swap](https://github.com/Trinkler/agora-swap)
 
 Liquidity providers see:
 
