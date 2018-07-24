@@ -27,7 +27,7 @@ Add your own design. We ❤ [issues](https://github.com/Trinkler/imagewallet/iss
 
 ## Exchange
 
-_A cross-chain, custodian-free, cryptocurrency exchange._ See [Agora Trade](https://trinkler.software/exchange) for more information.
+_A cross-chain, non-custodial, cryptocurrency exchange._ See [Agora Trade](https://trinkler.software/exchange) for more information.
 
 ## Inter alia
 
