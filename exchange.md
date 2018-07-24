@@ -5,7 +5,7 @@ author: "R. Trinkler"
 permalink: /exchange/
 ---
 
-[Agora Trade](https://agora.trade) is the first ever user-friendly implementation of a cross-chain, non-custodial cryptocurrency exchange.
+[Agora Trade](https://agora.trade) is a cross-chain, non-custodial, cryptocurrency exchange.
 
 For more information see:
 
