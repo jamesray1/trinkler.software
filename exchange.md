@@ -28,5 +28,3 @@ Liquidity providers see:
 - <a href="mailto:company@trinkler.software?Subject=Inquiry" target="_top">company@trinkler.software</a>
 
 [Agora Trade](https://agora.trade) is operated by _Agora Trade Limited_. Home in "[Blockchain Island](https://cointelegraph.com/news/malta-passes-blockchain-bills-into-law-confirming-malta-as-the-blockchain-island)" Valletta, Malta. Developed with ❤ in "[Crypto Valley](http://uk.businessinsider.com/what-its-like-in-zug-switzerlands-crypto-valley-2018-6?r=US&IR=T)" Zug, Switzerland by Trinkler Software.
-
-Thank you for reading.
