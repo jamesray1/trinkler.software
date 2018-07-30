@@ -31,4 +31,4 @@ _A cross-chain, non-custodial, cryptocurrency exchange._ See [Agora Trade](https
 
 ## Inter alia
 
-Many more tools are on the assembly line. Follow us on [Twitter](https://twitter.com/trinkler_sw) and join us on [Discord](https://discord.gg/Te7sWv3) to [not lose touch with reality](https://www.youtube.com/watch?v=UYfh9YhUVdE).
+Many more tools are on the assembly line. Follow us on [Twitter](https://twitter.com/trinkler_sw) and join us on [Discord](https://discord.gg/C9TPNQd) to [not lose touch with reality](https://www.youtube.com/watch?v=UYfh9YhUVdE).
