@@ -12,7 +12,7 @@ $ npm start
 # run and serve site including all drafts at localhost:4000
 $ npm t
 # build site for production
-$ npm deploy
+$ npm run build
 ```
 
 ## Contributing
