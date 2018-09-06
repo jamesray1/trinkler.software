@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Trinkler/website.git"
+    "url": "git+https://github.com/Trinkler/trinkler.software.git"
   },
   "keywords": [
     "Tools",
@@ -22,7 +22,7 @@
   "author": "Trinkler Software AG <company@trinkler.software>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/Trinkler/website/issues"
+    "url": "https://github.com/Trinkler/trinkler.software/issues"
   },
-  "homepage": "https://github.com/Trinkler/website#readme"
+  "homepage": "https://github.com/Trinkler/trinkler.software#readme"
 }

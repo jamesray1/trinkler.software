@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+      DIY Blockchain - State &middot; Trinkler
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+</head>
+
+
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="/">
+          <h2 class="nav-title">Trinkler</h2>
+        </a>
+        <ul>
+          <li><a href="/exchange">Agora</a></li>
+          <li><a href="/tools">Tools</a></li>
+          <li><a href="/about">Software</a></li>
+        </ul>
+    </div>
+  </nav>
+
+    <main>
+      <div class="post">
+  <div class="post-info">
+    <span>Written by</span>
+    
+        R. Trinkler
+    
+
+    
+      <br>
+      <span>on&nbsp;</span><time datetime="2018-09-06 00:00:00 +0200">September 06, 2018</time>
+    
+  </div>
+
+  <h1 class="post-title">DIY Blockchain - State</h1>
+  <div class="post-line"></div>
+
+  <h2 id="introduction">Introduction</h2>
+
+<p>Shared data is data distributed amongst a network of participants; validation of distributed data can always occur locally without requiring trust. Furthermore, the distribution happens in a byzantine tolerant way. To elaborate, there is a mechanism in place with which network participants can come to consensus over which data to distribute and validate (canonicality).</p>
+
+<p>The storage or <strong>State</strong> has two main goals</p>
+
+<ul>
+  <li>Lower disk storage footprint (storage)</li>
+  <li>Provide an efficient way to retrieve information (retrieval)</li>
+</ul>
+
+<p>Note: <code class="highlighter-rouge">read</code> and <code class="highlighter-rouge">write</code> operations to the state are inherently different in blockchain networks. <code class="highlighter-rouge">Read</code> is possible to do efficiently as the database to read from (the state) is already on the local machine of the user. <code class="highlighter-rouge">Write</code> operations on the other hand are inefficient as each modification to the database requires propagation through the network and then canonicalisation. In this part we will focus on<code class="highlighter-rouge">read/retrieval</code> operations and on how to keep storage footprints low. In the validity part we will look into how we know that the state is valid. What this means is that we will look at how to ensure that the state only changes according to a predefined ruleset. Concluding with the canonicality part we will look into different networking protocols and canonicality algorithms which can make <code class="highlighter-rouge">write</code> operations more efficient.</p>
+
+<h2 id="a-bit-of-history">A bit of history</h2>
+
+<p>Blockchain state is a distributed key-value store or database. The database implementation has changed over time.</p>
+
+<p>We went from Bitcoin’s unspent transaction outputs to Ethereum’s state.</p>
+
+<p>An unspent transaction output (UTXO) is an output of a blockchain transaction that one has yet to spend, i.e. it is possible to use it as an input in a new transaction. Bitcoin is the most prominent example of a cryptocurrency that uses the UTXO model. The sum of unspent transaction outputs of a user is their cryptocurrency balance.</p>
+
+<p>Hence within the Bitcoin blockchain a user goes through the historical transactions to add up all their unspent transaction outputs to know the balance.</p>
+
+<p>This technique is undesirable since it makes it difficult to prune historical transactions which will lead to a bloating of the state and thus the requirements of how much data we need to retrieve from the network to validate the correctness of our blockchain.</p>
+
+<p>An alternative way to maintain the state is by adding up balances on each transaction that modify a current <em>state</em> of the blockchain. A prominent example for such a blockchain is Ethereum.</p>
+
+<p>In this part we will only look into state as opposed to UTXO model.</p>
+
+<h3 id="definition-proof-chain">Definition (Proof-chain)</h3>
+
+<p>The state is stored using a Merkle tree and dubbed an <code class="highlighter-rouge">object tree</code>, where the root of the object tree is called <code class="highlighter-rouge">state root</code>. The state root can be seen as a tiny (in kilobytes, not importance) proof that the entries in the object tree are valid. The state root is secured using a <code class="highlighter-rouge">proof-chain</code>.</p>
+
+<p>A <strong>proof-chain</strong> is a list of block headers from the Genesis block to the latest block, which is linked together using the hashes of previous blocks.</p>
+
+<p>The proof-chain secures the state root and the state root secures the object tree. See also <a href="http://cryptonite.info/files/mbc-scheme-rev3.pdf">the mini-blockchain scheme</a> for more information.</p>
+
+<h3 id="definition-state">Definition (State)</h3>
+
+<p>The leaves of the object tree form the state.</p>
+
+<p>The <strong>State</strong> is a mapping of ObjectID to Object.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>state := ObjectID -&gt; Object
+</code></pre></div></div>
+
+<p>Where <code class="highlighter-rouge">ObjectID</code> is a unique Identifier of each Object. Usually the ObjectID is the user public key.</p>
+
+<p>Each state can include a list of special <strong>built-in</strong> objects. Within Ethereum this is called a <em>precompiled contract</em>. It describes a special/non-standard entry into the mapping for example a <code class="highlighter-rouge">ECDSARECOV</code> function in Ethereum or a <code class="highlighter-rouge">Parachain</code> object in Polkdadot.</p>
+
+<h3 id="definition-object">Definition (Object)</h3>
+
+<p>An object is a collection of data allocated to each <code class="highlighter-rouge">ObjectID</code>.</p>
+
+<h3 id="examples-object">Examples (Object)</h3>
+
+<h4 id="relay-chain-polkadot">Relay chain (Polkadot)</h4>
+
+<p>A very elegant version of an <strong>Object</strong> is the one of <a href="https://github.com/w3f/polkadot-spec/blob/master/spec.md#state">Polkadot’s Relay chain</a>, which is simply:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Object := {
+    code_hash: Hash,
+    storage_root: Hash
+}
+</code></pre></div></div>
+
+<blockquote>
+  <p>The state of the relay chain has similarities to Ethereum: “objects” contained in it are a mapping from an ObjectID identifier to code (a SHA3 of Wasm code) and storage (a Merkle-trie root for a set of H256 to bytes mappings). Objects are bland Wasm code bundles with a couple of external facilities open to them as user-functions, primarily the ability to call into other objects and to access its own storage. - <a href="https://github.com/w3f/polkadot-spec/blob/master/spec.md#state">Polkadot specs</a></p>
+</blockquote>
+
+<p>The Relaychain focuses on <code class="highlighter-rouge">Objects</code> rather than on cryptocurrency balances. Nevertheless cryptocurrency balances can be stored and accounted for in a dedicated Object.</p>
+
+<blockquote>
+  <p>Unlike Ethereum and Bitcoin, balances are not a first-class part of the state-transition function (STF). Indeed the only aspect of the relay-chain which is first-class is the notion of an object. Each object is identified through an index (ObjectID) and has some code and storage (similar to Ethereum contract accounts). The code exports functions which can be called either from other objects or through a transaction. - <a href="https://github.com/w3f/polkadot-spec/blob/master/spec.md#relay-chain">Polkadot specs</a></p>
+</blockquote>
+
+<h4 id="nimiq">Nimiq</h4>
+
+<p>Another very elegant approach is the one of <a href="https://nimiq.com">Nimiq</a>. It is somewhat antithetical to the one of the Relaychain. Nimiq focuses almost entirely on cryptocurrency payments, there is no notion of Turing-complete smart-contracts etc. This allows Nimiq to have an unprecedentedly low storage footprint, while still allowing for full decentralisation.</p>
+
+<p>An <strong>Object</strong> in Nimiq looks as follows:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Object := {
+    type: Type,
+    balance: Number
+}
+</code></pre></div></div>
+
+<p>where <code class="highlighter-rouge">Type</code> is one of the following:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">Nimiq.Account.Type.BASIC</code>: A basic user account</li>
+  <li><code class="highlighter-rouge">Nimiq.Account.Type.VESTING</code>: A hardcoded type of a smart-contact for vesting of funds.</li>
+  <li><code class="highlighter-rouge">Nimiq.Account.Type.HTLC</code>: A hardcoded type of smart-contract for hashed timelock contracts. It’s this contract that we use for <a href="https://agora.trade">Agora Trade</a>, our cross-chain, non-custodial, cryptocurrency exchange.</li>
+</ul>
+
+<p>Noteworthy of Nimiq’s approach is that it does not require a transaction counter, or <em>nonce</em>, entry in the object or anywhere else to protect against transaction replay attacks. Instead of a nonce, Nimiq decided to use the transaction <code class="highlighter-rouge">validityStartHeight</code> in combination with a transaction <code class="highlighter-rouge">uniqueness</code> constraint as a replay protection. This way they can get rid of empty objects in the object tree. In Ethereum, even if you completely empty an object, its nonce value would be stored forever in the objects tree, bloating it over time.</p>
+
+<h2 id="storage">Storage</h2>
+
+<p>The storage section is about how the state storage footprint from a user perspective can be lowered.</p>
+
+<h3 id="substates-sharding">Substates (Sharding)</h3>
+
+<p>One approach is to split up the state into substates, or shards.</p>
+
+<p><strong>A sharded State</strong> is a superset of <em>substates</em> mappings of ObjectID to ObjectTypes. Note: each substate is a partition of the state.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>state := {substate_1, ..., substate_n}
+</code></pre></div></div>
+
+<p>where:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>substate_1 := ObjectID -&gt; Object_1
+substate_2 := ObjectID -&gt; Object_2
+...
+substate_n := ObjectID -&gt; Object_n
+</code></pre></div></div>
+
+<p>Where each shard can have unique built-in objects and objects of each shard can be of a different format.</p>
+
+<h3 id="checkpointsconstant--sized-blockchains">Checkpoints/Constant- sized blockchains</h3>
+
+<p>Checkpoints and constant- sized blockchains (see for example <a href="https://codaprotocol.com/static/coda-whitepaper-05-10-2018-0.pdf">Coda Protocol</a> allow for smaller proof-chains, by removing the necessity to validate the state from Genesis or by using recursive composition of zk-SNARKs to compress the proof-chain to a few kilobytes.</p>
+
+<h3 id="off-chain-computing">Off-chain computing</h3>
+
+<p>Another approach is to move a portion of the state off-chain.</p>
+
+<p>Off-chain computing for example in the form of <a href="https://plasma.io/plasma.pdf">Plasma</a>, <a href="https://people.cs.uchicago.edu/~teutsch/papers/truebit.pdf">TrueBit</a>, or by using <a href="https://l4.ventures/papers/statechannels.pdf">Generalised State Channels</a> allows for the ability to move computation off-chain and validate periodically on-chain.</p>
+
+<h2 id="retrieval">Retrieval</h2>
+
+<p>Once we have a <code class="highlighter-rouge">state root</code> we would like to get access to the <code class="highlighter-rouge">object tree</code> data.</p>
+
+<p>The data requirements of the <code class="highlighter-rouge">object tree</code> are by far the largest. In some extreme examples such as highly scalable blockchains like <a href="https://zilliqa.com/">Zilliqa</a>, to completely validate the state will fast require terabytes of data.</p>
+
+<p>Retrieval is all about providing an efficient way to retrieve and store this data.</p>
+
+<h3 id="archival-nodes">Archival nodes</h3>
+
+<p>One approach to providing data is by using community nodes or <em>archival nodes</em>. That is an archive, every new node can access the entire history of a blockchain, to validate their states.</p>
+
+<p>E.g. by using third party providers, such as:</p>
+
+<ul>
+  <li>https://ipfs.io,</li>
+  <li>https://bluzelle.com/,</li>
+  <li>https://gnxtech.io/en/,</li>
+  <li>https://fluence.ai,</li>
+  <li>http://www.pepperdb.org/.</li>
+</ul>
+
+<h3 id="bittorrent">BitTorrent</h3>
+
+<p>Another approach is by hosting the blockchain history from the Genesis Block to a recent block on swarm.</p>
+
+<h2 id="remarks-on-sustainablity">Remarks on Sustainablity</h2>
+
+<p>There are two user interactions which are distributed across a network.</p>
+
+<ul>
+  <li>Modifiying state.</li>
+  <li>Hosting.</li>
+</ul>
+
+<p>Modifying state has an economic cost attached to it called a transaction fee. However continuous hosting as of now is not specifically taxed on almost every blockchain. This is not ideal as hosting should also have an economic cost attached to it.</p>
+
+<p>For Blockchains with simple state it’s possible to enforce a maintenance fee. Where <code class="highlighter-rouge">simple</code> is defined as Object X is not linked with Object Y, for all Objects X,Y in the State.</p>
+
+<p>We can see that this is the case for Nimiq’s blockchain.</p>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>Some of the terms used in this blog, such as <em>Object</em> or <em>Built-ins</em> originate from the <a href="https://github.com/w3f/polkadot-spec/blob/master/spec.md#state">polkadot specs paper</a>.</p>
+
+<p>Many thanks to Sophie, Mark, Hervé, Hector and Bruno for proof reading and providing feedback, as well as the Nimiq team for their insights.</p>
+
+<p>Any faults are my own.</p>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Seen a mistake? We ❤ <a href="https://github.com/Trinkler/trinkler.software/issues/new">issues</a> and <a href="https://github.com/Trinkler/trinkler.software/fork">pull requests</a>!</p>
+
+<p>Don’t be left out of the discussion - join us on <a href="https://discord.gg/C9TPNQd">Discord</a>.</p>
+
+<p>Thank you for reading.</p>
+
+
+</div>
+
+<div class="pagination">
+  
+  
+    <a href="/2018-05-21/diy-blockchain-overview" class="right arrow">&#8594;</a>
+  
+
+  <a href="#" class="top">Top</a>
+</div>
+
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time datetime="2018-09-07 00:02:59 +0200">2018</time> <a href="https://www.linkedin.com/company/trinkler-software/">Trinkler Software AG</a>.
+        <a href="https://twitter.com/trinkler_sw">Twitter</a>, <a href="https://github.com/Trinkler/">Github</a> and <a href="https://discord.gg/C9TPNQd">Discord</a>.
+      </span>
+    </footer>
+  </body>
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116352173-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116352173-1');
+</script>
+
+  
+
+</html>

@@ -37,8 +37,8 @@ Shared data is data that is distributed amongst a network of participants, where
 
 The storage or **State** has two main goals
 
-- Provide an efficient way to query information (retrieval)
 - Lower disk storage footprint (storage)
+- Provide an efficient way to retrieve information (retrieval)
 
 Note `read` and `write` operations to the state are inherently different in blockchain networks. `Read` can be done very efficiently as the database to read from (the state) is already on the local machine of the user. `Write` operations on the other hand are very inefficient as each modification to the database needs to be propagated through the network and then canonicalised. In this part we will focus on `read/retrival` operations and on how to keep storage footprints low. In the canonicality part we will look into different networking protocols and canonicality algorithms which can make `write` operations more efficient.
 
@@ -78,9 +78,8 @@ All writing produced that is inspired by these ideas is reflective of my own opi
 
 ## Contribute
 
-Seen a mistake? We ❤ [issues](https://github.com/Trinkler/website/issues/new) and [pull requests](https://github.com/Trinkler/website/fork)!
+Seen a mistake? We ❤ [issues](https://github.com/Trinkler/trinkler.software/issues/new) and [pull requests](https://github.com/Trinkler/trinkler.software/fork)!
 
 Don't be left out of the discussion - join us on [Discord](https://discord.gg/C9TPNQd).
 
 Thank you for reading.
-

@@ -86,8 +86,8 @@
 <p>The storage or <strong>State</strong> has two main goals</p>
 
 <ul>
-  <li>Provide an efficient way to query information (retrieval)</li>
   <li>Lower disk storage footprint (storage)</li>
+  <li>Provide an efficient way to retrieve information (retrieval)</li>
 </ul>
 
 <p>Note <code class="highlighter-rouge">read</code> and <code class="highlighter-rouge">write</code> operations to the state are inherently different in blockchain networks. <code class="highlighter-rouge">Read</code> can be done very efficiently as the database to read from (the state) is already on the local machine of the user. <code class="highlighter-rouge">Write</code> operations on the other hand are very inefficient as each modification to the database needs to be propagated through the network and then canonicalised. In this part we will focus on <code class="highlighter-rouge">read/retrival</code> operations and on how to keep storage footprints low. In the canonicality part we will look into different networking protocols and canonicality algorithms which can make <code class="highlighter-rouge">write</code> operations more efficient.</p>
@@ -132,17 +132,18 @@
 
 <h2 id="contribute">Contribute</h2>
 
-<p>Seen a mistake? We ❤ <a href="https://github.com/Trinkler/website/issues/new">issues</a> and <a href="https://github.com/Trinkler/website/fork">pull requests</a>!</p>
+<p>Seen a mistake? We ❤ <a href="https://github.com/Trinkler/trinkler.software/issues/new">issues</a> and <a href="https://github.com/Trinkler/trinkler.software/fork">pull requests</a>!</p>
 
 <p>Don’t be left out of the discussion - join us on <a href="https://discord.gg/C9TPNQd">Discord</a>.</p>
 
 <p>Thank you for reading.</p>
 
 
-
 </div>
 
 <div class="pagination">
+  
+    <a href="/2018-09-06/diy-blockchain-state" class="left arrow">&#8592;</a>
   
   
     <a href="/2018-05-07/introduction" class="right arrow">&#8594;</a>
@@ -155,7 +156,7 @@
 
     <footer>
       <span>
-        &copy; <time datetime="2018-09-03 13:23:55 +0200">2018</time> <a href="https://www.linkedin.com/company/trinkler-software/">Trinkler Software AG</a>.
+        &copy; <time datetime="2018-09-07 00:02:59 +0200">2018</time> <a href="https://www.linkedin.com/company/trinkler-software/">Trinkler Software AG</a>.
         <a href="https://twitter.com/trinkler_sw">Twitter</a>, <a href="https://github.com/Trinkler/">Github</a> and <a href="https://discord.gg/C9TPNQd">Discord</a>.
       </span>
     </footer>
