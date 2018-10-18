@@ -48,8 +48,6 @@ The Internet created a link between persons exchanging communications and techno
 
 Emphasis on increased security for exchanges continues to grow as further crytographic research is applied in the field. Elliptic curve cryptography **(ECC)** is an example of a type of encrytion being used in research, and is used for encryption by combining the key agreement with a symmetric encryption scheme.
 
-![](https://i.imgur.com/XzujGNi.png)
-
 - **Input-Output** as a form of exchange: I/O is defined as _communication between an information processing system (such as a computer) and the outside world._ This _outside world_ can be another information processing system of human being. Blockchain has provided people with a speedier way to communicate and to exchange information by enabling the exchange of information to occur simulataneously between both humans and information systems (humans communicate an input into a computer and this computer in turn communicates this information to another computer. This other computer receives this information and output and by extension so does the person on the other end of that communication who is using it).
 
 This mechanism for exchange was initially enabled by the invention of the Internet but the Blockchain takes it a step further by promising a similar communications system whereby information processing systems no longer have to rely on sharing their communications with humans because they can become autonomous.
