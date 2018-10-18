@@ -74,7 +74,7 @@ _Amir Taaki's example of tools_: Our approach to tool-building using software as
 
 ### Part Five: Acknowledgements
 
-Thank you to Arie Levy-Cohen, Reto Trinkler, Mark Greenslade, Bruno França, Hector Chu, and Hervé Fulchiron for input and team support.
+Thank you to Arie Levy-Cohen, Reto Trinkler, Mark Greenslade, Bruno França, Hector Chu, Hervé Fulchiron and Seraya Takahashi for input and team support.
 
 ### Part Six: Resources/Further Reading
 
