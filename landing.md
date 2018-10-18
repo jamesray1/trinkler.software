@@ -5,11 +5,17 @@ author: "S. Radermacher"
 permalink: /
 ---
 
-## A History of Interpersonal Exchange: From Byzantine to Blockchain
+Our purpose is to build tools for a catallactic society. A catallactic society is a society built upon the foundations of the theory of catallactics. Where catallactics is the theory of the market economy; i.e. of exhange prices and ratios.
+
+With the advent of blockchain technology and an open-source financal system, we believe that our society is largely shaped by the principles of a new type of evolving market system: one that is based on the principles of _catallactics._
+
+Therewith we have also experienced an increased dependency in our market economy upon a new form of _interpersonal exchange_ that is based on cryptographic principles and p2p networks. Without these exchanges, there is no liquidity, and therefore there are no prices or ratios either.
+
+For this reason, we aim to build tools that cater to this new market economy and to the overall benefit of society as opposed to its regression or undoing
+
+### A History of Interpersonal Exchange: From Byzantine to Blockchain
 
 > The Exchange relation is the fundamental social relation. Interpersonal exchange of goods and services weaves the bond which unites men into society. - Ludwig Von Mises
-
-### What is Interpersonal exchange?
 
 ![](https://i.imgur.com/60GOd98.jpg)
 
@@ -79,3 +85,5 @@ Thank you to Arie Levy-Cohen, Reto Trinkler, Mark Greenslade, Bruno França, Hec
 - List and further iterations of tools Trinkler Software AG is currently building [Company Website](https://trinkler.software/tools/)
 
 - Video: Amir Taaki's take on tools: [Amir Taaki: We are the Custodians of Life's Meaning](https://www.youtube.com/watch?v=COisLGwnb-M)
+
+For any inquires contact <a href="mailto:company@trinkler.software?Subject=Inquiry" target="_top">company@trinkler.software</a>.
