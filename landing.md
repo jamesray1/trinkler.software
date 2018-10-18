@@ -7,7 +7,7 @@ permalink: /
 
 Our purpose is to build tools for a catallactic society. A catallactic society is a society built upon the foundations of the theory of catallactics. Where catallactics is the theory of the market economy; i.e. of exhange prices and ratios.
 
-With the advent of blockchain technology and an open-source financal system, we believe that our society is largely shaped by the principles of a new type of evolving market system: one that is based on the principles of _catallactics._
+With the advent of blockchain technology and an open-source financial system, we believe that our society is largely shaped by the principles of a new type of evolving market system: one that is based on the principles of _catallactics._
 
 Therewith we have also experienced an increased dependency in our market economy upon a new form of _interpersonal exchange_ that is based on cryptographic principles and p2p networks. Without these exchanges, there is no liquidity, and therefore there are no prices or ratios either.
 
