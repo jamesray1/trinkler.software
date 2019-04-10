@@ -15,7 +15,7 @@ The Trinkler Github repository [Alexandria](https://github.com/Trinkler/alexandr
 
 Alexandria can only be a collaborative effort. We ❤ [issues](https://github.com/Trinkler/alexandria/issues/new) and [pull requests](https://github.com/Trinkler/alexandria/fork).
 
-## Imagewallet
+## [Imagewallet](https://github.com/Trinkler/imagewallet)
 
 _A custodian file that is simpler than [brainwallets](https://en.bitcoin.it/wiki/Brainwallet) and can be used for the entire blockchain ecosystem._
 
@@ -28,6 +28,10 @@ Add your own design. We ❤ [issues](https://github.com/Trinkler/imagewallet/iss
 ## Exchange
 
 _A cross-chain, non-custodial, cryptocurrency exchange._ See [Agora Trade](https://trinkler.software/exchange) for more information.
+
+## [Katallassos](https://katallassos.com/)
+
+_A standard framework for finance._ This is a work in progress.
 
 ## Inter alia
 
