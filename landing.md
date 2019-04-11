@@ -11,11 +11,11 @@ With the advent of blockchain technology and an open-source financial system, we
 
 Therewith we have also experienced an increased dependency in our market economy upon a new form of _interpersonal exchange_ that is based on cryptographic principles and p2p networks. Without these exchanges, there is no liquidity, and therefore there are no prices or ratios either.
 
-For this reason, we aim to build tools that cater to this new market economy and to the overall benefit of society as opposed to its regression or undoing
+For this reason, we aim to build tools that cater to this new market economy and to the overall benefit of society as opposed to its regression or undoing.
 
 ### A History of Interpersonal Exchange: From Byzantine to Blockchain
 
-> The Exchange relation is the fundamental social relation. Interpersonal exchange of goods and services weaves the bond which unites men into society. - Ludwig Von Mises
+> The Exchange relation is the fundamental social relation. Interpersonal exchange of goods and services weaves the bond which unites men into society.—Ludwig Von Mises
 
 ![](https://i.imgur.com/60GOd98.jpg)
 
@@ -54,13 +54,13 @@ The Internet created a link between persons exchanging communications and techno
 
 Emphasis on increased security for exchanges continues to grow as further crytographic research is applied in the field. Elliptic curve cryptography **(ECC)** is an example of a type of encrytion being used in research, and is used for encryption by combining the key agreement with a symmetric encryption scheme.
 
-- **Input-Output** as a form of exchange: I/O is defined as _communication between an information processing system (such as a computer) and the outside world._ This _outside world_ can be another information processing system of human being. Blockchain has provided people with a speedier way to communicate and to exchange information by enabling the exchange of information to occur simulataneously between both humans and information systems (humans communicate an input into a computer and this computer in turn communicates this information to another computer. This other computer receives this information and output and by extension so does the person on the other end of that communication who is using it).
+- **Input-Output** as a form of exchange: I/O is defined as _communication between an information processing system (such as a computer) and the outside world._ This _outside world_ can be another information processing system of human being. Blockchain has provided people with a speedier way to communicate and to exchange information by enabling the exchange of information to occur simultaneously between both humans and information systems (humans communicate an input into a computer and this computer in turn communicates this information to another computer. This other computer receives this information and output and by extension so does the person on the other end of that communication who is using it).
 
 This mechanism for exchange was initially enabled by the invention of the Internet but the Blockchain takes it a step further by promising a similar communications system whereby information processing systems no longer have to rely on sharing their communications with humans because they can become autonomous.
 
-- **Continuous, immutable, autonomous exchanges (iteration)** This independence is achieved in a variety of ways and its success ultimately depends on finding a language that all blockchains can collectively apply, understand, and use to communicate and collaborate with one another. An important factor in this is ensuring that the language blockchains speak when communicating and exchanging information with one another is repetitive -- therefore by extension, easy for each chain to pick up and to follow.
+- **Continuous, immutable, autonomous exchanges (iteration)** This independence is achieved in a variety of ways and its success ultimately depends on finding a language that all blockchains can collectively apply, understand, and use to communicate and collaborate with one another. An important factor in this is ensuring that the language blockchains speak when communicating and exchanging information with one another is repetitive—therefore by extension, easy for each chain to pick up and to follow.
 
-This repetition from a mathematical standpoint can be seen as _iteration_. Ultimately, this iteration if implemented properly and using a universal language that all blockchains can understand has the potential to give blockchains their full autonomy. They can furthermore use it to communicate and exchange information with one another to continue growing a cooperative system amongst themselves.
+This repetition from a mathematical standpoint can be seen as _iteration_. Ultimately, this iteration, if implemented properly, and using a universal language that all blockchains can understand, has the potential to give blockchains their full autonomy. They can furthermore use it to communicate and exchange information with one another to continue growing a cooperative system amongst themselves.
 
 ### Part Three: How does interpersonal exchange tie into a catallactic society?
 
@@ -70,7 +70,7 @@ The advent of blockchain technology has changed the face of society as we know i
 
 _Amir Taaki's example of tools_: Our approach to tool-building using software as a means for doing so is inspired by Amir Taaki's approach to tools.
 
-> As technologists, our job is to build tools for people to use. And we find ourselves in an empowering position because of the legacy left to us by many people over history who built the technology with certain ethics and morals in mind. As someone with a huge amount of skill you have a responsibility to carry that legacy onwards. - Amir Taaki
+> As technologists, our job is to build tools for people to use. And we find ourselves in an empowering position because of the legacy left to us by many people over history who built the technology with certain ethics and morals in mind. As someone with a huge amount of skill you have a responsibility to carry that legacy onwards.—Amir Taaki
 
 ### Part Five: Acknowledgements
 
@@ -78,12 +78,12 @@ Thank you to Arie Levy-Cohen, Reto Trinkler, Mark Greenslade, Bruno França, Hec
 
 ### Part Six: Resources/Further Reading
 
-- Trinkler Software's Bruno França's research paper, **Homomorphic Mini Blockchain Scheme**, which touches upon the concept of elliptic curve cryptography and its use cases in further detail [Homomorphic Mini Blockchain Scheme](http://cryptonite.info/files/HMBC.pdf)
+- Trinkler Software's Bruno França's research paper, **[Homomorphic Mini Blockchain Scheme](http://cryptonite.info/files/HMBC.pdf)**, which touches upon the concept of elliptic curve cryptography and its use cases in further detail;
 
-- Bruno França's Agora blog post about Trinkler Software's Imagewallet, which goes into further detail about [What is an Imagewallet? by Bruno França](https://blog.agora.trade)
+- Bruno França's Agora blog post about Trinkler Software's Imagewallet, which goes into further detail about ["What is an Imagewallet?"](https://blog.agora.trade);
 
-- List and further iterations of tools Trinkler Software AG is currently building [Company Website](https://trinkler.software/tools/)
+- a list and further iterations of tools Trinkler Software AG is currently building at the [Company Website](https://trinkler.software/tools/); and
 
-- Video: Amir Taaki's take on tools: [Amir Taaki: We are the Custodians of Life's Meaning](https://www.youtube.com/watch?v=COisLGwnb-M)
+- a video of Amir Taaki's take on tools: [Amir Taaki: We are the Custodians of Life's Meaning](https://www.youtube.com/watch?v=COisLGwnb-M).
 
 For any inquires contact <a href="mailto:company@trinkler.software?Subject=Inquiry" target="_top">company@trinkler.software</a>.
